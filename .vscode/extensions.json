@@ -1,0 +1,18 @@
+{
+  "recommendations": [
+    "formulahendry.auto-close-tag",
+    "formulahendry.auto-rename-tag",
+    "biomejs.biome",
+    "anseki.vscode-color",
+    "usernamehw.errorlens",
+    "github.vscode-github-actions",
+    "hashicorp.terraform",
+    "wix.vscode-import-cost",
+    "oderwat.indent-rainbow",
+    "Zignd.html-css-class-completion",
+    "YoavBls.pretty-ts-errors",
+    "natqe.reload",
+    "bradlc.vscode-tailwindcss",
+    "styled-components.vscode-styled-components"
+  ]
+}
