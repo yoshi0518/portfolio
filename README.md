@@ -1,4 +1,4 @@
-# Next.js Template
+# Yoshi0518's Portfolio
 
 ## 開発環境準備
 
@@ -16,11 +16,11 @@ $ pnpm i
 # Type Check
 $ pnpm typecheck
 
-# Format
-$ pnpm fmt
-
 # Lint
-$ pnpm lint
+$ pnpm lint:fix
+
+# Format
+$ pnpm fmt:fix
 
 # Dev Server
 $ pnpm dev

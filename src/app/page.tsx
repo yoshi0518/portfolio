@@ -1,5 +1,5 @@
-import { HomePageTemplate } from '@/features/home/components/server/HomePageTemplate';
+import { HomeTemplate } from '@/features/home/components/server/HomeTemplate';
 
-const Page = () => <HomePageTemplate />;
+const Page = () => <HomeTemplate />;
 
 export default Page;
