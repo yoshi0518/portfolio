@@ -5,8 +5,8 @@ on:
     types: [microcms_webhook_portfolio]
 
 env:
-  NODE_VERSION: '22.14.0'
-  PNPM_VERSION: '10.11.0'
+  NODE_VERSION: '24.11.0'
+  PNPM_VERSION: '10.20.0'
 
 permissions:
   contents: read
