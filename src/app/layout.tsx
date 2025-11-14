@@ -1,27 +1,27 @@
-import RootLayoutWrapper from '@/shared/components/layout/server/RootLayoutWrapper';
-import { env } from '@/shared/env';
+import { RootLayout } from '@/shared/components/layout/server/RootLayout';
+import { env } from '@/shared/libs/env';
 
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: '●●●',
-  description: '●●●',
-  keywords: ['●●●', '●●●', '●●●'],
+  title: "Yoshi0518's Portfolio",
+  description: 'エンジニアYoshi0518のポートフォリオサイトです。',
+  keywords: ['Yoshi0518', 'portfolio', 'ポートフォリオ', 'WEBエンジニア', 'ソフトウェアエンジニア', 'エンジニア'],
   openGraph: {
-    title: '●●●',
-    description: '●●●',
-    url: 'https://xxx.yoshi0518.com',
-    siteName: '●●●',
+    title: "Yoshi0518's Portfolio",
+    description: 'エンジニアYoshi0518のポートフォリオサイトです。',
+    url: 'https://yoshi0518.com',
+    siteName: "Yoshi0518's Portfolio",
   },
   robots: {
     index: !env.DEBUG, // falseでnoindex
   },
 };
 
-const RootLayout = ({
+const Layout = ({
   children,
 }: Readonly<{
   children: React.ReactNode;
-}>) => <RootLayoutWrapper>{children}</RootLayoutWrapper>;
+}>) => <RootLayout>{children}</RootLayout>;
 
-export default RootLayout;
+export default Layout;

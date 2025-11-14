@@ -16,7 +16,7 @@
     "lineWidth": 120,
     "lineEnding": "lf",
     "bracketSpacing": true,
-    "attributePosition": "auto"
+    "attributePosition": "multiline"
   },
   "linter": {
     "enabled": true,
@@ -32,6 +32,18 @@
       },
       "suspicious": {
         "noExplicitAny": "warn"
+      },
+      "nursery": {
+        "useSortedClasses": {
+          "fix": "safe",
+          "level": "error",
+          "options": {
+            "functions": ["twMerge", "twJoin", "tv"]
+          }
+        }
+      },
+      "security": {
+        "noDangerouslySetInnerHtml": "off"
       }
     },
     "domains": {

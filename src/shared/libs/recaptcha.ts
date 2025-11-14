@@ -1,4 +1,4 @@
-import { env } from '@/shared/env';
+import { env } from '@/shared/libs/env';
 
 import type { RecaptchaResultType } from '@/shared/types/recaptcha';
 

@@ -1,6 +1,6 @@
 import { Resend } from 'resend';
 
-import { env } from '@/shared/env';
+import { env } from '@/shared/libs/env';
 
 import type { SendMailType } from '@/shared/types/resend';
 

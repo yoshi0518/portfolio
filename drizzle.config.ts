@@ -1,6 +1,6 @@
 import { defineConfig } from 'drizzle-kit';
 
-import { env } from '@/shared/env';
+import { env } from '@/shared/libs/env';
 
 export default defineConfig({
   dialect: 'postgresql',
@@ -11,6 +11,6 @@ export default defineConfig({
     url: env.NEON_DATABASE_URL,
   },
   migrations: {
-    schema: '●●●',
+    schema: 'public',
   },
 });
